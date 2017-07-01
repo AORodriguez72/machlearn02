@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+	<html class="sl-root decks export offline loaded">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>ML w/ Azure ML Studio: Slides</title>
+		<meta name="description" content="Slides">
+
+		<link rel="stylesheet" type="text/css" href="lib/offline-v2.css">
+
+
+
+	</head>
+	<body class="reveal-viewport theme-font-montserrat theme-color-white-blue">
+		<div class="reveal">
+			<div class="slides">
+				<section data-id="c49dc2864291ca090c1d2316a1c2b8d4" data-background-color="#62bdea"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 22px; height: auto;" data-block-id="8e1f2862dea0574757be7e36e82167cd">
+    <div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10; text-align: left; color: rgb(255, 255, 0);">
+        <h1>Machine Learning</h1>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" data-block-id="25795a6864f39d221d8c9f1506ec7b55" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 188px; top: 119px;">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(255, 255, 0);">
+<p style="text-align:right">com Azure ML Studio</p>
+</div>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 669px; height: 359px; left: 146px; top: 185px;" data-block-id="9b5a267df6d64c550ee040998b26f469">
+    <div class="sl-block-content" style="z-index: 13;">
+        <img data-natural-width="704" data-natural-height="378" data-lazy-loaded="" data-src="deck-3/edf8346334badbb3877d1f2ecdbc65ea.jpg">
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 944px; left: 16px; top: 646px;" data-block-id="ea25b818f3f9d3d0869a2224f823dd65">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; font-size: 70%; background-color: rgba(0, 0, 0, 0); color: rgb(255, 255, 0);" dir="ui">
+<p><strong>https://aorodriguez72.github.io/machlearn02</strong></p>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 160px; top: 568px;" data-block-id="6a07228fccf75aa0ff3a9f3392046a45">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; color: rgb(255, 255, 0); text-align: center;">
+<p>+ Cognitive Services</p>
+</div>
+</div></section><section class="stack" data-id="21c57dbea0d76babde4e3b96139c15bf"><section data-id="54039baaa2183c08f0b61f8106aa99de"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 70px; height: auto;" data-block-id="40d8a8f2c6e05318b105bcda337fcd16">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 11; text-align: left; font-size: 96%;">
+        <h2>Por que se importar?</h2>
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 640px; height: 359px; left: 160px; top: 210px;" data-block-id="d785c9b858a6ec0966fc4a015fffd696">
+    <div class="sl-block-content" style="z-index: 12; border-style: solid; border-width: 4px;">
+        <img data-natural-width="410" data-natural-height="230" data-lazy-loaded="" data-src="deck-3/0e69f5d8f9d269bb8e316defcbd1646d.jpg">
+    </div>
+</div></section><section data-id="89feea859c2ea4405904c7b753471be1"><div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 960px; height: 534px; left: 0px; top: 70px;" data-block-id="dc3c621046533795663b22731ffd3f2a">
+    <div class="sl-block-content" style="z-index: 11; border-width: 4px;">
+        <img data-natural-width="1534" data-natural-height="854" data-lazy-loaded="" data-src="deck-3/8a9484bf665bc86e0167e9f79c27ef87.jpg">
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" data-block-id="6a24048b0b9481d98ccdc4fddcad0386" style="min-width: 30px; min-height: 30px; width: 460px; height: 282px; left: 20px; top: 312px;">
+    <div class="sl-block-content" style="z-index: 12;">
+        <img data-natural-width="1588" data-natural-height="974" data-lazy-loaded="" data-src="deck-3/bdac268ad31d86df6cab5ca69c9ec460.png">
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" data-block-id="c554e420816b57afd85798fa15bd6705" style="height: auto; min-width: 30px; min-height: 30px; width: 940px; left: 10px; top: 654px;">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 60%;" data-has-custom-html="">
+        <p>
+            <strong>
+                <a href="http://www.andrewng.org/" target="_blank">
+                    <span style="color:#DAA520">http://www.andrewng.org/</span>
+                </a>
+            </strong>
+        </p>
+    </div>
+</div></section><section data-id="a5f13734baab96d0dc4bfea1ad3c2d0b" data-background-color="#1b3245"><div class="sl-block" data-block-type="image" data-block-id="3046cd52bccc9767e603832fa656b1af" style="min-width: 30px; min-height: 30px; width: 910px; height: 560px; left: 22px; top: 70px;">
+    <div class="sl-block-content" style="z-index: 11;">
+        <img data-natural-width="1738" data-natural-height="1070" data-lazy-loaded="" data-src="deck-3/288893a83df11b2895efe4feaed75f5f.png">
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" data-block-id="c554e420816b57afd85798fa15bd6705" style="height: auto; min-width: 30px; min-height: 30px; width: 940px; left: 10px; top: 649px;">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 60%;" data-has-custom-html="">
+<p><strong><a href="https://www.youtube.com/watch?v=v4Ds3PQRt8M" target="_blank"><span style="color:#DAA520">https://www.youtube.com/watch?v=v4Ds3PQRt8M</span> </a> </strong></p>
+</div>
+</div></section><section data-id="40beb85ca0ffa5d7e769ed76dd64b260" data-background-color="#000000"><div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 926px; height: 490px; left: 18px; top: 114px;" data-block-id="2f13137e94a437d9682e1176bc0293d6">
+    <div class="sl-block-content" style="z-index: 11;">
+        <img data-natural-width="1200" data-natural-height="635" data-lazy-loaded="" data-src="deck-3/954e94eccbde33ca1546fb0e6ebae820.png">
+    </div>
+</div>
+</section><section data-id="1f087fd9a93a554c6980174e8a61d139"><div class="sl-block" data-block-type="image" data-block-id="6a88eec8932b3b37863dbd69f1825979" style="min-width: 30px; min-height: 30px; width: 960px; height: 519px; left: 0px; top: 91px;">
+    <div class="sl-block-content" style="z-index: 11;">
+        <img data-natural-width="1698" data-natural-height="918" data-lazy-loaded="" data-src="deck-3/17e0d25a84b85049c599b67a1138950f.png">
+    </div>
+</div>
+</section><section data-id="228969d41337d4ceeae9e8c6eb07f7f3"><div class="sl-block" data-block-type="image" data-block-id="433192213617335a5d97384ebc8dc50a" style="min-width: 30px; min-height: 30px; width: 960px; height: 619px; left: 0px; top: 41px;">
+    <div class="sl-block-content" style="z-index: 11;">
+        <img data-natural-width="1582" data-natural-height="1020" data-lazy-loaded="" data-src="deck-3/1fbb8f4b907d1d4ead8ff6dbc9a19bf6.png">
+    </div>
+</div></section><section data-id="fff73331bdd93bff4573c1bffca58873"><div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 807px; height: 236px; left: 73px; top: 6px;" data-block-id="5929ebfe9a0b9235baabce7a14b4d86b">
+    <div class="sl-block-content" style="z-index: 11;">
+        <img data-natural-width="1490" data-natural-height="436" data-lazy-loaded="" data-src="deck-3/0e71a6620eb1d206cebd95e725883039.png">
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" data-block-id="174bdce767650ca11851f07f0e1b28c0" style="min-width: 30px; min-height: 30px; width: 249px; height: 441px; left: 676px; top: 259px;">
+    <div class="sl-block-content" style="z-index: 12;">
+        <img data-natural-width="761" data-natural-height="1350" data-lazy-loaded="" data-src="deck-3/ac3d0e3920477d5494e30d2a05489c36.png">
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 585px; height: 329px; left: 28px; top: 305px;" data-block-id="35725983fd6cbd125da7dfda4a09e5bd">
+    <div class="sl-block-content" style="z-index: 13;">
+        <img data-natural-width="640" data-natural-height="360" data-lazy-loaded="" data-src="deck-3/1c7ba5b1f87f0d49ae973cd8821ad558.jpg">
+    </div>
+</div>
+</section><section data-id="901964fcd13115c921447f345532dc6b"><div class="sl-block" data-block-type="iframe" data-block-id="f44cead7b056e1adb44d41b58ae4adf1" style="min-width: 30px; min-height: 30px; width: 960px; height: 630px; left: 0px; top: 0px;">
+    <div class="sl-block-content" style="z-index: 10;">
+        <iframe webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock" data-src="https://www.ibmchefwatson.com/tupler"></iframe>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 930px; left: 15px; top: 630px;" data-block-id="81b52eec81fb1140ebeb3805521097db">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; font-size: 60%;" data-has-custom-html="">
+        <p>
+            <strong>
+                <a href="https://www.ibmchefwatson.com/tupler" target="_blank">
+                    <span style="color:#DAA520">https://www.ibmchefwatson.com/tupler</span>
+                </a>
+            </strong>
+        </p>
+    </div>
+</div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 930px; left: 15px; top: 660px;" data-block-id="6b68dea71418f929e94d6ea7209a3172">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; font-size: 60%;" data-has-custom-html="">
+        <p>
+            <strong>
+                <a href="https://www.scientificamerican.com/article/flavor-connection-taste-map-interactive/" target="_blank">
+                    <span style="color:#DAA520">https://www.scientificamerican.com/article/flavor-connection-taste-map-interactive/</span>
+                </a>
+            </strong>
+        </p>
+    </div>
+</div></section><section data-id="ccee8031c75d20c3a8afcce018429816"><div class="sl-block" data-block-type="iframe" data-block-id="b5389c37da49aa9a795eb1c1efa38fc2" style="min-width: 30px; min-height: 30px; width: 960px; height: 622px; left: 0px; top: 20px;">
+    <div class="sl-block-content" style="z-index: 11;">
+        <iframe webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock" data-src="https://news-explorer.mybluemix.net/"></iframe>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" data-block-id="e04c69e8f3b591ea0b9a00f76f0f89ea" style="height: auto; min-width: 30px; min-height: 30px; width: 930px; left: 15px; top: 652px;">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 60%;" data-has-custom-html="">
+        <p>
+            <strong>
+                <a href="https://news-explorer.mybluemix.net/" target="_blank">
+                    <span style="color:#DAA520">https://news-explorer.mybluemix.net/</span>
+                </a>
+            </strong>
+        </p>
+    </div>
+</div>
+</section><section data-id="a664e930fc2a1f7b9a33c8d67c2564ad"><div class="sl-block" data-block-type="iframe" data-block-id="f374f66898b75741d16b97f7ce9d5710" style="min-width: 30px; min-height: 30px; width: 960px; height: 658px; left: 0px; top: 0px;">
+    <div class="sl-block-content" style="z-index: 10;">
+        <iframe webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock" data-src="https://tone-analyzer-demo.mybluemix.net/"></iframe>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 930px; left: 15px; top: 670px;" data-block-id="430cf118ef11058203342f59f538d7b3">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 60%;" data-has-custom-html="">
+        <p>
+            <strong>
+                <a href="https://tone-analyzer-demo.mybluemix.net/" target="_blank">
+                    <span style="color:#DAA520;">https://tone-analyzer-demo.mybluemix.net/</span>
+                </a>
+            </strong>
+        </p>
+    </div>
+</div></section><section data-id="1af2dd777090c86e08c01369eafde925" data-background-color="#000000"><div class="sl-block" data-block-type="iframe" data-block-id="edaed22b93dafe5ad9e6e3f895d0243a" style="min-width: 30px; min-height: 30px; width: 800px; height: 498px; left: 80px; top: 101px;">
+    <div class="sl-block-content" style="z-index: 11;">
+        <iframe webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock" data-src="https://www.youtube.com/embed/R2mC-NUAmMk?enablejsapi=1"></iframe>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" data-block-id="ebe47bb875b9c937601066b735ac0fee" style="height: auto; min-width: 30px; min-height: 30px; width: 960px; left: 0px; top: 640px;">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 60%; color: rgb(255, 153, 0);" data-has-custom-html="">
+<p><strong>https://www.youtube.com/watch?v=R2mC-NUAmMk</strong></p>
+</div>
+</div>
+</section><section data-id="2bfccbd5ad39f98f205cc12c27a7bcf9" data-background-color="#000000"><div class="sl-block" data-block-type="iframe" data-block-id="6307d8b5096b0d175424b259efa109aa" style="min-width: 30px; min-height: 30px; width: 960px; height: 500px; left: 0px; top: 100px;">
+    <div class="sl-block-content" style="z-index: 10;">
+        <iframe webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock" data-src="https://www.youtube.com/embed/TsaES--OTzM?wmode=opaque&amp;rel=0&amp;enablejsapi=1"></iframe>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 960px; left: 0px; top: 640px;" data-block-id="77fbd9c94cad16080d25845572f40a32">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 60%;" data-has-custom-html="">
+        <p>
+            <a href="https://www.youtube.com/watch?v=TsaES--OTzM">
+                <span style="color:#DAA520">
+                    <strong>https://www.youtube.com/watch?v=TsaES--OTzM</strong>
+                </span>
+            </a>
+        </p>
+    </div>
+</div>
+</section><section data-id="93249bd5bc2229be1d532f1ea5d0d08f"><div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 960px; height: 540px; left: 0px; top: 50px;" data-block-id="40686981f42f6b8025bed23145704dd7">
+    <div class="sl-block-content" style="z-index: 10;">
+        <img data-natural-width="1920" data-natural-height="1080" data-lazy-loaded="" data-src="deck-3/9f8edc1860fa8ec1c171f33cd9164f69.jpg">
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 672px; left: 145px; top: 644px;" data-block-id="5d0d651ddf9854a301bad9789f94dbe8">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 60%;" data-has-custom-html="">
+        <p>
+            <strong>
+                <a href="https://www.microsoft.com/cognitive-services" target="_blank">
+                    <span style="color:#DAA520">https://www.microsoft.com/cognitive-services</span>
+                </a>
+            </strong>
+        </p>
+    </div>
+</div>
+</section><section data-id="ec953bf20a447ce1565c09ae304ebeb4"><div class="sl-block" data-block-type="image" data-block-id="682b5d860e4ec8d538b0b1cb7f231cf4" style="min-width: 30px; min-height: 30px; width: 849px; height: 470px; left: 64px; top: 45px;">
+    <div class="sl-block-content" style="z-index: 10;">
+        <img data-natural-width="1586" data-natural-height="878" data-lazy-loaded="" data-src="deck-3/d42f8d84b6e32b5157062ecf2d93c309.png">
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" data-block-id="30275e3f187ece416ce8ec0a3b962a63" style="height: auto; min-width: 30px; min-height: 30px; width: 608px; left: 172px; top: 574px;">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; font-size: 60%;" data-has-custom-html="">
+        <p>
+            <a href="https://cloud.google.com/vision/docs/drag-and-drop" target="_blank">
+                <span style="color:#DAA520">
+                    <strong>https://cloud.google.com/vision/docs/drag-and-drop</strong>
+                </span>
+            </a>
+        </p>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" data-block-id="4e5e60834403d7da969832fb73c7ab8d" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 188px; top: 615px;">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 60%;" data-has-custom-html="">
+        <p>
+            <a href="https://visual-recognition-demo.mybluemix.net">
+                <span style="color:#DAA520">
+                    <strong>https://visual-recognition-demo.mybluemix.net</strong>
+                </span>
+            </a>
+        </p>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 738px; left: 119px; top: 659px;" data-block-id="9fb21d35b3f117fcbf353b95bd2c0404">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; font-size: 60%;" data-has-custom-html="">
+        <p>
+            <a href="https://www.microsoft.com/cognitive-services/en-us/computer-vision-api">
+                <strong>
+                    <span style="color:#DAA520">https://www.microsoft.com/cognitive-services/en-us/computer-vision-api</span>
+                </strong>
+            </a>
+        </p>
+    </div>
+</div>
+</section><section data-id="b5c0b9731e21b1135c539af9a425e4ec"><div class="sl-block" data-block-type="iframe" data-block-id="8aac132b22c67d1f5c9c8e14c0f6b9b8" style="min-width: 30px; min-height: 30px; width: 960px; height: 630px; left: 0px; top: 0px;">
+    <div class="sl-block-content" style="z-index: 12;">
+        <iframe webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock" data-src="https://qnamaker.ai"></iframe>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 738px; left: 119px; top: 659px;" data-block-id="9fb21d35b3f117fcbf353b95bd2c0404">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; font-size: 60%;" data-has-custom-html="">
+        <p>
+            <a href="https://qnamaker.ai/">
+                <strong>
+                    <span style="color:#DAA520">https://qnamaker.ai/</span>
+                </strong>
+            </a>
+        </p>
+    </div>
+</div></section><section data-id="f09862d65bf3d1b0d0d7418f723da27b" data-background-color="#1d191a"><div class="sl-block" data-block-type="image" data-block-id="e8d9f15a5223c173290628d24a5e7b6d" style="min-width: 30px; min-height: 30px; width: 800px; height: 646px; left: 80px; top: 26px;">
+    <div class="sl-block-content" style="z-index: 11;">
+        <img data-natural-width="838" data-natural-height="677" data-lazy-loaded="" data-src="deck-3/4ec150504806735087be2163ad7f6c80.png">
+    </div>
+</div>
+</section><section data-id="a4e1eb41abc5b2d406dcf6e95fcf3bcd"><div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 960px; height: 454px; left: 0px; top: 123px;" data-block-id="ff135b9a43c30eb9a7d170ecbca01301">
+    <div class="sl-block-content" style="z-index: 11;">
+        <img data-natural-width="1200" data-natural-height="567" data-lazy-loaded="" data-src="deck-3/fb605376bd06d3c773c0bbc5810b42b6.png">
+    </div>
+</div>
+</section><section data-id="a84b339a6c5ce33d36c989a6dc5d2a6b"><div class="sl-block" data-block-type="image" data-block-id="432df6d954427fc13dbdb748c4787bea" style="min-width: 30px; min-height: 30px; width: 595px; height: 642px; left: 160px; top: 53px;">
+    <div class="sl-block-content" style="z-index: 11;">
+        <img data-natural-width="750" data-natural-height="809" data-lazy-loaded="" data-src="deck-3/7d29ccdb9d7d5ef7cc03c8090fa5c5cf.png">
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" data-block-id="462d192f636769a31dc7c06f00e76b8c" style="height: auto; min-width: 30px; min-height: 30px; width: 720px; left: 80px; top: 13px;">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; font-size: 60%; text-align: left;">
+        <p>
+            <strong>Agentes de Mudança x Tempo para impactar modelos de negócios e habilidades </strong>
+        </p>
+    </div>
+</div>
+</section><section data-id="aca27a1472568147b6ec21aef99dde35"><div class="sl-block" data-block-type="image" data-block-id="ea1715acef2334042b69546fbef6c6dc" style="min-width: 30px; min-height: 30px; width: 611px; height: 501px; left: 343px; top: 30px;">
+    <div class="sl-block-content" style="z-index: 10;">
+        <img data-natural-width="687" data-natural-height="563" data-lazy-loaded="" data-src="deck-3/73a0c353c639ab991bee60a7c78ea414.png">
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" data-block-id="b12591a9b448a15fe8a040f53df6eee0" style="min-width: 30px; min-height: 30px; width: 322px; height: 420px; left: 11px; top: 42px;">
+    <div class="sl-block-content" style="z-index: 11;">
+        <img data-natural-width="386" data-natural-height="504" data-lazy-loaded="" data-src="deck-3/3e2b6746e6028b2728c210930f5fbb6b.png">
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 618px; left: 320px; top: 599px;" data-block-id="d532d35db3a6d01f23d24dd2798ad1a4">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; font-size: 72%; text-align: left; border-style: solid; transition-delay: 4s; border-width: 3px; border-radius: 18px; transition-duration: 4s;" data-animation-type="fade-in">
+        <p>
+            <strong>   "65% dos estudantes irão trabalhar em profissões que                                                                       ainda não existem"</strong>
+        </p>
+    </div>
+</div>
+</section><section data-id="12754071cc94178aff5d73feefb4e332"><div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 636px; height: 292px; left: 162px; top: 7px;" data-block-id="9b2122749f6b47570f7501fb66e8be8a">
+    <div class="sl-block-content" style="z-index: 11;">
+        <img data-natural-width="1722" data-natural-height="790" data-lazy-loaded="" data-src="deck-3/f081f467275020b556117d6da445fee4.jpg">
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 407px; height: 376px; left: 277px; top: 318px;" data-block-id="7a01310334111f1c1fbc0fe12436db7d">
+    <div class="sl-block-content" style="z-index: 12;">
+        <img data-natural-width="988" data-natural-height="912" data-lazy-loaded="" data-src="deck-3/957c890156d6ba69c39f82bbc7570260.png">
+    </div>
+</div>
+</section><section data-id="4f631a35ba8b43ecef3bc2766d15f069" data-background-color="#5bac9b"><div class="sl-block" data-block-type="image" data-block-id="8051f4e86583d96b803dac4f627aa32d" style="min-width: 30px; min-height: 30px; width: 960px; height: 640px; left: 0px; top: 60px;">
+    <div class="sl-block-content" style="z-index: 11;">
+        <img data-natural-width="1500" data-natural-height="1000" data-lazy-loaded="" data-src="deck-3/d9ce88893318a13b17796aede743aa91.png">
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" data-block-id="92b9b97fb469c664048f50b01c89c634" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 28px;">
+    <div class="sl-block-style" style="z-index: 12; transform: rotate(360deg);">
+        <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; color: rgb(255, 255, 255); font-size: 217%;">
+            <p>
+                <strong>Evoluir e Adaptar</strong>
+            </p>
+        </div>
+    </div>
+</div></section></section><section class="stack" data-id="0c76d4dbc881ce97bc5025a42630b7fb"><section data-id="4fa4b70aa0f866cd2c895ed147d0e170"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 70px; height: auto;" data-block-id="23645bd7cd2180e775f45b1f7cf5a875">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 11; text-align: left; font-size: 96%;">
+        <h2>Definições</h2>
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 614px; height: 363px; left: 160px; top: 210px;" data-block-id="c215a7c1fe579910dc9767a170c8a34e">
+    <div class="sl-block-content" style="z-index: 12;">
+        <img data-natural-width="800" data-natural-height="473" data-lazy-loaded="" data-src="deck-3/7733250763fac8faf5770af3f1444f5f.png">
+    </div>
+</div></section><section data-id="52e93340cdaaa3f7821f99706bd909e0">
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 846px; left: 57px; top: 152px;" data-block-id="e1aaf2de04662e4bf9bd507e72bdfe4e">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: center;">
+<p>"Campo de estudo que permite que máquinas sejam capazes de aprender sem que sejam especificamente programadas para tal."</p>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" data-block-id="995815396e0549247991bc47e58e807e" style="height: auto; min-width: 30px; min-height: 30px; width: 529px; left: 240px; top: 471px;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p style="text-align:left"><span style="font-size:0.7em">Criar a programação a partir dos dados existentes</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 529px; left: 240px; top: 541px;" data-block-id="842a946f39c661ddbbc59f9e88467c7b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;">
+<p style="text-align:left"><span style="font-size:0.7em">Dados que façam sentido (contenham padrões)</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 420px; left: 240px; top: 619px;" data-block-id="71c214725b85c0839a3c3ff58019510a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<p style="text-align:left"><span style="font-size:21px">Campo composto por <em>n</em> disciplinas</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 80px; top: 33px;" data-block-id="5d8d707a82f74f89ad1f67f62ed761c5">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; text-align: left;">
+<p><strong>O que é Machine Learning?</strong></p>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 642px; left: 160px; top: 311px;" data-block-id="66607b02dcfa6f06296b19485b1df1d1">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16; text-align: center;">
+<p>"Capacidade dos computadores aprenderem pela experiência."</p>
+</div>
+</div></section><section data-id="fb4f7e98b8f7c353e10cc10ac78b071f"><div class="sl-block" data-block-type="image" data-block-id="05016de047e23f25e57c3ece1dd1ecd3" style="min-width: 30px; min-height: 30px; width: 960px; height: 583px; left: 0px; top: 59px;">
+    <div class="sl-block-content" style="z-index: 11;">
+        <img data-natural-width="708" data-natural-height="430" data-lazy-loaded="" data-src="deck-3/2d0869b5b8eed3cb3881088af0c15a96.png">
+    </div>
+</div></section><section data-id="7e7fd1c327a996ca31c9cacca33c1866"><div class="sl-block" data-block-type="image" data-block-id="fc53280388ffe7bb9171a9be656093b6" style="min-width: 30px; min-height: 30px; width: 960px; height: 616px; left: 0px; top: 72px;">
+    <div class="sl-block-content" style="z-index: 11;">
+        <img data-natural-width="964" data-natural-height="619" data-lazy-loaded="" data-src="deck-3/b78da2496e4ce6c9b8d51b6dcec76df5.png">
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" data-block-id="af8a67370ce61b5c3099912ff06b4532" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 80px; top: 33px;">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: left;">
+        <p>
+            <strong>Algoritmos de Machine Learning</strong>
+        </p>
+    </div>
+</div></section><section data-id="c931ce1f3b07288dfce7fb88447af775">
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 446px; left: 160px; top: 140px;" data-block-id="a1dd9defe5f4bca4bb67bd7dfbb697ce"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;">
+<p style="text-align:left"><span style="font-size:0.7em">Aprender, quando não é possível codificar</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 529px; left: 240px; top: 186px;" data-block-id="7c186e6717064e47bce7c2468a5e86a1"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; font-size: 84%;">
+<p style="text-align:left"><span style="font-size:0.7em">Ex: Reconhecimento voz, imagens, gestos...</span></p>
+</div></div>
+
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 80px; top: 33px;" data-block-id="570387c31a224e8f63b27d63c1e43952">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: left;">
+<p><strong>Por que Machine Learning?</strong></p>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 446px; left: 160px; top: 280px;" data-block-id="99650755fe37aff174df2ce93014af0e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<p style="text-align:left"><span style="font-size:0.7em">Aprender, quando não é possível escalonar</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 529px; left: 240px; top: 319px;" data-block-id="bda103b524f2fbdd90e697fa25835f6a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 15; font-size: 84%;">
+<p style="text-align:left"><span style="font-size:0.7em">Ex: Recomendações, Spam, Detecção de Fraude...</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 535px; left: 160px; top: 425px;" data-block-id="a6d6a0c5770c7b1b7bdbdfdca5453575"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 16;">
+<p style="text-align:left"><span style="font-size:0.7em">Aprender, quando é necessário adaptar/personalizar</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 529px; left: 240px; top: 464px;" data-block-id="974f41408e6258835b2d11bc747ac38e"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 17; font-size: 84%;">
+<p style="text-align:left"><span style="font-size:0.7em">Ex: Digitação Preditiva, Direcionamento de Marketing...</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 535px; left: 160px; top: 560px;" data-block-id="08f220ef4e3f9ac71096b0d2bbdc960c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 18;">
+<p style="text-align:left"><span style="font-size:0.7em">Aprender, quando não é possível controlar</span></p>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 529px; left: 240px; top: 599px;" data-block-id="00b0180b22c8a4d77c8798bd37adffe3"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 19; font-size: 84%;">
+<p style="text-align:left"><span style="font-size:0.7em">Ex: Jogos, simuladores, controle robótico...</span></p>
+</div></div></section><section data-id="d40819285c7991925e9632bfdf40a564"><div class="sl-block" data-block-type="text" data-block-id="e04efc886c5a908b0a797354a1fea2d4" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 160px; top: 381px;">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left;">
+        <p>
+            <span style="color:rgb(34, 34, 34); text-align:left">Não Supervisionado</span>
+        </p>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 80px; top: 32px;" data-block-id="0fecd4a70f363a8dc8be00b3491be283">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; text-align: left;">
+        <p>
+            <strong>Tipos de Machine Learning</strong>
+        </p>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 160px; top: 101px;" data-block-id="444ad985429c50ed07398db36f9ba076">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; text-align: left;">
+<p><span style="color:rgb(34, 34, 34); text-align:left">Supervisionado</span></p>
+</div>
+</div>
+<div class="sl-block" data-block-type="image" data-block-id="709f5d466a386069e56e1dcfcc6d7cac" style="min-width: 30px; min-height: 30px; width: 660px; height: 210px; left: 160px; top: 149px;">
+    <div class="sl-block-content" style="z-index: 15;">
+        <img style="" data-natural-width="613" data-natural-height="195" data-lazy-loaded="" data-src="deck-3/c8bc39c1da00aab4071b7eda5efeb49d.jpg">
+    </div>
+</div>
+
+<div class="sl-block" data-block-type="image" data-block-id="465dc1c25348319dd56cf27d8c9432b2" style="min-width: 30px; min-height: 30px; width: 674px; height: 222px; left: 160px; top: 425px;">
+    <div class="sl-block-style" style="z-index: 17; transform: rotate(360deg);">
+        <div class="sl-block-content" style="z-index: 17;">
+            <img style="" data-natural-width="607" data-natural-height="200" data-lazy-loaded="" data-src="deck-3/9333f31047e3d7a5b2e66040fc1f6e18.jpg">
+        </div>
+    </div>
+</div></section><section data-id="3cb14a3e7ced8640df80abaa220ba3c6">
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 80px; top: 32px;" data-block-id="50e3f80114ccd4502629a5983b72b772">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; text-align: left;">
+        <p>
+            <strong>Tipos de Machine Learning</strong>
+        </p>
+    </div>
+</div>
+
+
+
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 878px; height: 416px; left: 41px; top: 142px;" data-block-id="cbe6459054e570b1d1cae2dd619a833f"><div class="sl-block-content" style="z-index: 13;"><img data-natural-width="800" data-natural-height="379" data-lazy-loaded="" data-src="deck-3/f01eed48e324037b1ceac2881aa24743.jpg"></div></div></section><section data-id="27316b8a7d967545cc60074c6801d5d6" data-background-color="#000000"><div class="sl-block" data-block-type="iframe" data-block-id="edaed22b93dafe5ad9e6e3f895d0243a" style="min-width: 30px; min-height: 30px; width: 800px; height: 498px; left: 80px; top: 101px;">
+    <div class="sl-block-content" style="z-index: 11;">
+        <iframe webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock" data-src="https://www.youtube.com/embed/SBf5-eF-EIw?wmode=opaque&amp;rel=0&amp;enablejsapi=1" data-autoplay=""></iframe>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" data-block-id="ebe47bb875b9c937601066b735ac0fee" style="height: auto; min-width: 30px; min-height: 30px; width: 960px; left: 0px; top: 640px;">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 60%; color: rgb(255, 153, 0);" data-has-custom-html="">
+        <p>
+            <strong>https://www.youtube.com/watch?v=SBf5-eF-EIw</strong>
+            <a href="https://www.youtube.com/watch?v=SBf5-eF-EIw" target="_blank">
+                <strong>
+                    <strong></strong>
+                </strong>
+            </a>
+        </p>
+    </div>
+</div></section><section data-id="597855a3cce7d0bf82dfab3ced7bd7bf"><div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 960px; height: 521px; left: 0px; top: 81px;" data-block-id="9c42183eea99934418ec36816c6995f2">
+    <div class="sl-block-content" style="z-index: 10;">
+        <img data-natural-width="1822" data-natural-height="988" data-lazy-loaded="" data-src="deck-3/8d4888bf820b193ede4d9bbbdc43031b.jpg">
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 80px; top: 33px;" data-block-id="7f7005e521b17fd7028e8cc01fca3fdd">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: left;">
+        <p>
+            <strong>Redes Neurais</strong>
+        </p>
+    </div>
+</div></section><section data-id="2c555f1b5ea61c05900d598cee8b730c"><div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 889px; height: 586px; left: 36px; top: 98px;" data-block-id="c0ad388f8d7cb238bb9422f24c88be24">
+    <div class="sl-block-content" style="z-index: 10;">
+        <img data-natural-width="1572" data-natural-height="1036" data-lazy-loaded="" data-src="deck-3/1118ba76b98d5dd40a6c72c7172bc822.jpg">
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 80px; top: 33px;" data-block-id="601d2bd274645b8394b74be14d7589af">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; text-align: left;">
+        <p>
+            <strong>Redes Neurais (Profundas)</strong>
+        </p>
+    </div>
+</div></section><section data-id="dfd9df52cbce07491645b0ecda5fa1b9"><div class="sl-block" data-block-type="image" data-block-id="d9bddd8ce233aeb4746b55f49bd181d5" style="min-width: 30px; min-height: 30px; width: 507px; height: 213px; left: 80px; top: 104px;">
+    <div class="sl-block-style" style="z-index: 11; transform: rotate(360deg);">
+        <div class="sl-block-content" style="z-index: 11;">
+            <img style="" data-natural-width="566" data-natural-height="238" data-lazy-loaded="" data-src="deck-3/d3ace4c30dcd7bcf383f8700b9950f20.png">
+        </div>
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" data-block-id="0f7248015cde5eeb12529e8a0f3469e1" style="min-width: 30px; min-height: 30px; width: 856px; height: 206px; left: 52px; top: 404px;">
+    <div class="sl-block-content" style="z-index: 12;">
+        <img style="" data-natural-width="769" data-natural-height="185" data-lazy-loaded="" data-src="deck-3/523c2608160a1ffa35e647853de421fa.jpg">
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 80px; top: 33px;" data-block-id="f06f1d6b1847b6f4f8217f76be3fd5cb">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13; text-align: left;">
+        <p>
+            <strong>Rede Neural Convolucional</strong>
+        </p>
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 360px; height: 139px; left: 560px; top: 211px;" data-block-id="55ec4629f7be155013777a29fbabf3b2">
+    <div class="sl-block-content" style="z-index: 14;">
+        <img data-natural-width="500" data-natural-height="193" data-lazy-loaded="" data-src="deck-3/5629d80ad0ba4042fb1d2d5da16488a4.png">
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 930px; left: 15px; top: 645px;" data-block-id="81b52eec81fb1140ebeb3805521097db">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 50%;" data-has-custom-html="">
+        <p>
+            <strong>
+                <a href="http://timdettmers.com/2015/03/26/convolution-deep-learning/" target="_blank">
+                    <span style="color:#DAA520">http://timdettmers.com/2015/03/26/convolution-deep-learning/</span>
+                </a>
+            </strong>
+        </p>
+    </div>
+</div></section><section data-id="f8d14a7f9c0ba96edde37c43ca5b92b1" data-background-color="#000000"><div class="sl-block" data-block-type="image" data-block-id="1fd4da62d203387d8989e6d026edc171" style="min-width: 30px; min-height: 30px; width: 873px; height: 490px; left: 44px; top: 105px;">
+    <div class="sl-block-content" style="z-index: 12;">
+        <img data-natural-width="899" data-natural-height="505" data-lazy-loaded="" data-src="deck-3/92912a2cdca3aa3fa9f5393469b3aabb.png">
+    </div>
+</div></section><section data-id="50632a23d70d7bf9178826a33ac05112"><div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 517px; height: 304px; left: 10px; top: 387px;" data-block-id="9ce24a67407c3a63050d6f961abdb982">
+    <div class="sl-block-style" style="z-index: 11; transform: rotate(360deg);">
+        <div class="sl-block-content" style="z-index: 11;">
+            <img data-natural-width="480" data-natural-height="282" data-lazy-loaded="" data-src="deck-3/53ab831b146b8916524045bdf1f40acb.png">
+        </div>
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 427px; height: 341px; left: 533px; top: 350px;" data-block-id="7a7736484d4d183bdc7020cc6cf1182a">
+    <div class="sl-block-content" style="z-index: 12;">
+        <img data-natural-width="513" data-natural-height="410" data-lazy-loaded="" data-src="deck-3/233c8e93820713a538b473e82234653e.jpg">
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" data-block-id="ce41414dde9a6b003d65654cb866f554" style="min-width: 30px; min-height: 30px; width: 488px; height: 304px; left: 25px; top: 21px;">
+    <div class="sl-block-content" style="z-index: 13;">
+        <img style="" data-natural-width="512" data-natural-height="319" data-lazy-loaded="" data-src="deck-3/8f6c70bfd26305848340186631c0e744.jpg">
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" data-block-id="68117a6cb993ceee75d040e1ca4b78ab" style="min-width: 30px; min-height: 30px; width: 278px; height: 259px; left: 633px; top: 34px;"><div class="sl-block-content" style="z-index: 14;"><img data-natural-width="430" data-natural-height="400" style="" data-lazy-loaded="" data-src="deck-3/1a3671759b69fc6bee2c36a099966e21.jpg"></div></div></section><section data-id="eb58a88d8b3460764aa0fd87f2cedf71"><div class="sl-block" data-block-type="image" data-block-id="f08cd8006d3dd48c9f74fd5967bc6646" style="min-width: 30px; min-height: 30px; width: 733px; height: 524px; left: 114px; top: 88px;"><div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="600" data-natural-height="429" data-lazy-loaded="" data-src="deck-3/6c69c8128b8bd5c839e4765cf8aee9d7.jpg"></div></div></section><section data-id="0b3bb78cb46e7b0706b4b38f6dbd18d3"><div class="sl-block" data-block-type="iframe" data-block-id="f44cead7b056e1adb44d41b58ae4adf1" style="min-width: 30px; min-height: 30px; width: 960px; height: 654px; left: 0px; top: 0px;">
+    <div class="sl-block-content" style="z-index: 10;">
+        <iframe webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock" data-src="https://playground.tensorflow.org"></iframe>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 930px; left: 15px; top: 670px;" data-block-id="81b52eec81fb1140ebeb3805521097db">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12; font-size: 50%;" data-has-custom-html="">
+        <p>
+            <strong>
+                <a href="https://playground.tensorflow.org" target="_blank">
+                    <span style="color:#DAA520">https://playground.tensorflow.org</span>
+                </a>
+            </strong>
+        </p>
+    </div>
+</div></section></section><section class="stack" data-id="cb23326d5d51640b7a42c4bdb9577199"><section data-id="9db7715c6b02cfe0bd4f5998bc42718c"><div class="sl-block" data-block-type="image" data-block-id="6a21fd274871dab2e661bd8a6a8a7b3b" style="min-width: 30px; min-height: 30px; width: 560px; height: 332px; left: 160px; top: 184px;">
+    <div class="sl-block-content" style="z-index: 11;">
+        <img data-natural-width="576" data-natural-height="341" data-lazy-loaded="" data-src="deck-3/e6f2006b07c781365111d152074b9408.png">
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 70px; height: auto;" data-block-id="06a8b7d3d1d47ea855a79a80a9e67d6f">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 12; text-align: left; font-size: 96%;">
+        <h2>Let's Do It!</h2>
+    </div>
+</div></section><section data-id="9cd109e765d4d1713b9d4d3c4c28ba50" data-background-color="#505050"><div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 960px; height: 525px; left: 0px; top: 88px;" data-block-id="dbf1a04592f074ae05e51dbd683e1481"><div class="sl-block-content" style="z-index: 11;"><img data-natural-width="1024" data-natural-height="560" data-lazy-loaded="" data-src="deck-3/35267a2aa865c7d3e4c966e7040483e1.png"></div></div></section><section data-id="a24cb83b63bc30a19fb88df8472a60a1" data-background-color="#174181"><div class="sl-block" data-block-type="image" data-block-id="9846e098c93211083c97c8d1313b1095" style="min-width: 30px; min-height: 30px; width: 876px; height: 490px; left: 42px; top: 140px;">
+    <div class="sl-block-content" style="z-index: 11;">
+        <img data-natural-width="778" data-natural-height="435" data-lazy-loaded="" data-src="deck-3/1f42e26970ecbb51b90b5ecb0a066a52.png">
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 74px; height: 74px; left: 43px; top: 33px;" data-block-id="2d7b19b952e375db0132f81c21a21d4f">
+    <div class="sl-block-content" style="z-index: 12;">
+        <img data-natural-width="180" data-natural-height="180" data-lazy-loaded="" data-src="deck-3/adee114b4b3b3427fdec206ecdfacc59.png">
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 800px; left: 139px; top: 35px; height: auto;" data-block-id="1efdf8b7357a8c626b735bbfedd19d03">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 13; text-align: left; font-size: 96%; color: rgb(255, 255, 255);">
+        <h2>Azure ML Studio</h2>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" data-block-id="c526902597ee7152ef1966447d1f0101" style="height: auto; min-width: 30px; min-height: 30px; width: 800px; left: 80px; top: 659px;">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14; font-size: 61%;" data-has-custom-html="">
+        <p>
+            <a href="https://studio.azureml.net/">
+                <span style="color:#DAA520">
+                    <strong>https://studio.azureml.net/</strong>
+                </span>
+            </a>
+        </p>
+    </div>
+</div></section></section><section class="stack" data-id="d4f1ad5c4e1506949261c5d434bcfb65"><section data-id="f262ee466146fc972345834cafbb383a" data-background-color="#000000"><div class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 70px; height: auto;" data-block-id="c37d922eed349e496cdb700f046c4a0d">
+    <div class="sl-block-content fragment" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 11; text-align: left; font-size: 96%;" data-fragment-index="0">
+        <h2>
+            <span style="color:#FFFFFF">That's all Folks!</span>
+        </h2>
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" data-block-id="139de73dd84872dbc348e776c029076e" style="min-width: 30px; min-height: 30px; width: 594px; height: 389px; left: 183px; top: 210px;">
+    <div class="sl-block-content" style="z-index: 12;">
+        <img data-natural-width="728" data-natural-height="477" style="" data-lazy-loaded="" data-src="deck-3/0be928232ec7c572a05bfe65e7b9783b.jpg">
+    </div>
+</div></section><section data-id="86333a2d4202535877b14ff8fb430f61" data-background-color="#a4c2f4"><div class="sl-block" data-block-type="text" data-block-id="64d31ba03f3e1a8821fbc4ada11c5da2" style="height: auto; min-width: 30px; min-height: 30px; width: 929px; left: 16px; top: 23px;">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; font-size: 60%;" data-has-custom-html="">
+        <p>
+            <a href="https://github.com/AORodriguez72/machlearn01/raw/master/pdf/DataScienceInCloud.pdf" target="_blank">
+                <strong>
+                    <span style="color:#DAA520">Data Science in the Cloud</span>
+                </strong>
+            </a>
+        </p>
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 399px; height: 596px; left: 281px; top: 84px;" data-block-id="68aac0aec7a6970ae2487fd3daef0185">
+    <div class="sl-block-content" style="z-index: 12;">
+        <img data-natural-width="514" data-natural-height="768" data-lazy-loaded="" data-src="deck-3/c5e0ec2a1ba0f363c330e371f9cf91ec.png">
+    </div>
+</div>
+</section><section data-background-color="#a4c2f4" data-id="afbc81a3e444afedf8825bd74e502bef"><div class="sl-block" data-block-type="text" data-block-id="64d31ba03f3e1a8821fbc4ada11c5da2" style="height: auto; min-width: 30px; min-height: 30px; width: 929px; left: 16px; top: 23px;">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; font-size: 60%;" data-has-custom-html="">
+        <p>
+            <a href="https://github.com/AORodriguez72/machlearn01/raw/master/pdf/Python%20Machine%20Learning.pdf" target="_blank">
+                <strong>
+                    <span style="color:#DAA520">Python Machine Learning</span>
+                </strong>
+            </a>
+        </p>
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 457px; height: 584px; left: 252px; top: 89px;" data-block-id="13260645783df309827293af527cd7d6">
+    <div class="sl-block-style" style="z-index: 12;">
+        <div class="sl-block-content" style="z-index: 12;">
+            <img style="" data-natural-width="726" data-natural-height="927" data-lazy-loaded="" data-src="deck-3/d5db1d6f935660293602ac175e42be68.jpg">
+        </div>
+    </div>
+</div>
+</section><section data-id="880a268b306463c6d03578f18c72bab4" data-background-color="#a4c2f4">
+
+<div class="sl-block" data-block-type="text" data-block-id="60b8742739292d272a9d678141b3a582" style="height: auto; min-width: 30px; min-height: 30px; width: 911px; left: 25px; top: 30px;">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(255, 255, 0); text-align: center; font-size: 76%;">
+        <p>https://br.udacity.com/course/intro-to-machine-learning--ud120/</p>
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 809px; height: 552px; left: 76px; top: 106px;" data-block-id="8b3039d24bd523b267a4ac7c5f0a224d"><div class="sl-block-content" style="z-index: 13;"><img data-natural-width="1258" data-natural-height="858" data-lazy-loaded="" data-src="deck-3/96047373dff3aab6ad9748174cab1032.jpg"></div></div></section><section data-background-color="#a4c2f4" data-id="b6ad7e0f4e22ecce50bab2dfc07948c2">
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 911px; left: 25px; top: 51px;" data-block-id="98322646673d6a28cd9c10da635cdb67">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(255, 255, 0); text-align: center; font-size: 76%;">
+        <p>https://cognitiveclass.ai/</p>
+    </div>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 755px; height: 576px; left: 103px; top: 105px;" data-block-id="a3309b1a3a723e29b81e9eb655e5a5c4"><div class="sl-block-content" style="z-index: 12;"><img data-natural-width="1108" data-natural-height="846" data-lazy-loaded="" data-src="deck-3/dd24bf9de4cf2b1cff1b0cffc41fc38e.jpg"></div></div></section><section data-background-color="#a4c2f4" data-id="4b8bc4bd4fe16b5f0f10154f808311ea">
+
+<div class="sl-block" data-block-type="text" style="height: auto; width: 911px; left: 25px; top: 51px;" data-block-id="37ee2c5d68ceee70af1464302f35d1e7">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11; color: rgb(255, 255, 0); text-align: center; font-size: 76%;">
+<p>https://www.datacamp.com</p>
+</div>
+</div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 761px; height: 566px; left: 100px; top: 105px;" data-block-id="ce94c3a734f1b1b3e579c0c9d1c6b61a"><div class="sl-block-content" style="z-index: 12;"><img data-natural-width="1210" data-natural-height="900" data-lazy-loaded="" data-src="deck-3/0a789770b0a5fd7e569af8c0fa6f45bd.jpg"></div></div></section></section>
+			</div>
+		</div>
+
+		<script>
+			var SLConfig = {"deck": {"id":998970,"slug":"deck-3","title":"ML w/ Azure ML Studio","description":"","width":960,"height":700,"visibility":"self","published_at":null,"sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/d59a8263dc5f63322dacf4463bc824d9/thumb.jpg?1476501653","view_count":0,"user":{"id":654669,"username":"aorodriguez","name":"ABELARDO OCEJO RODRIGUEZ","description":"","thumbnail_url":"https://www.gravatar.com/avatar/833466767198c13102a171f8ba33f9c8?s=140\u0026d=https%3A%2F%2Fs3.amazonaws.com%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","paid":true,"pro":false,"lite":true,"team_id":null,"settings":{"id":503275,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true}},"background_transition":"fade","transition":"concave","theme_id":null,"theme_font":"montserrat","theme_color":"white-blue","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":false,"rolling_links":false,"center":false,"should_loop":false,"share_notes":null,"slide_number":null,"rtl":false,"version":2,"collaborative":true,"deck_user_editor_limit":1,"data_updated_at":1498905882875,"font_typekit":null,"font_google":null,"notes":{}}};
+
+
+			// Use local fonts
+			SLConfig.fonts_url = 'lib/fonts/';
+		</script>
+
+		<script src="lib/head.min.js"></script>
+		<script src="lib/reveal.min.js"></script>
+		<script src="lib/offline.js"></script>
+
+		<!-- Initialize the presentation -->
+		<script>
+			Reveal.initialize({
+				width: 960,
+				height: 700,
+				margin: 0.05,
+
+				controls: true,
+				progress: true,
+				history: true,
+				mouseWheel: false,
+				showNotes: false,
+				slideNumber: false,
+
+				autoSlide: 0 || 0,
+				autoSlideStoppable: true,
+
+				center: false,
+				loop: false,
+				rtl: false,
+
+				transition: "concave",
+				backgroundTransition: "fade",
+
+				dependencies: [
+					{ src: 'lib/reveal-plugins/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/reveal-plugins/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/reveal-plugins/highlight/highlight.js', async: true, callback: function() { hljs.initHighlighting(); hljs.initHighlightingOnLoad(); } },
+					{ src: 'lib/reveal-plugins/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+		</script>
+
+		
+
+	</body>
+</html>
